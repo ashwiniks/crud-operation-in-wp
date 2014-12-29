@@ -7,6 +7,7 @@ Version: 1.00
 Author: Ashwini Singh
 Author URI: http://phpmentors.in
 */
+// github added on 30/12/2013
 define('ROOTDIR', plugin_dir_path(__FILE__));
 add_action('admin_menu','create_crud_menu');
 function create_crud_menu()
